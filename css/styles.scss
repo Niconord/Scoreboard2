@@ -15,8 +15,20 @@ body {
   margin-bottom: 20px; /* Add some spacing between scoreboards */
 }
 
+.btn-primary {
+  font-size: 24px;
+  min-width: 35px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+}
+
 .decrease, .increase {
   font-size: 24px;
+  min-width: 35px;
   padding: 5px 10px;
   background-color: #007bff;
   color: #fff;
@@ -36,3 +48,4 @@ input.score {
   margin: 0 10px;
 
 }
+
